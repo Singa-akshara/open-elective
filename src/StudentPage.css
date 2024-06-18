@@ -1,0 +1,77 @@
+/* StudentPage.css */
+
+.student-page-container {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #87cefa;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.1)
+  }
+  .electives-table td {
+    background-color: #f0f8ff;
+  }
+  .page-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .electives-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .electives-table th,
+  .electives-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .electives-table th {
+    background-color: #4682b4;
+    color: white;
+  }
+  
+  .seats-filled {
+    text-align: center;
+    color: red;
+  }
+  
+  .submit-button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .active-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .disabled-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: not-allowed;
+  }
+  
+  .success-message {
+    text-align: center;
+    margin-top: 20px;
+    color: green;
+  }
+.tbody{
+
+   
+    padding: 10px;
+    border-bottom: 1px solid #87cefa;
+}  

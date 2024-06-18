@@ -1,0 +1,39 @@
+/* src/Header.css */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004d99;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .headerLeft {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px; /* Adjust based on your logo's size */
+    margin-right: 20px;
+  }
+  
+  .headerRight a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .headerRight a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .headerRight {
+      display: none; /* Hide nav links on smaller screens */
+    }
+  
+    /* Add a menu icon and toggle visibility for mobile, if needed */
+  }
+  
